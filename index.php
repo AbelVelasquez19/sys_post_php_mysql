@@ -10,11 +10,13 @@
 	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="./public/img/icons/icon-48x48.png" />
+	<!-- <link rel="shortcut icon" href="./public/img/icons/icon-48x48.png" > -->
+	<link rel="shortcut icon" href="./public/img/icons/farmacia.png">
 
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-sign-in.html" />
 
-	<title>Inicia sesión | TecTea</title>
+	<title>SISFARMACIA</title>
+	
 
 	<link href="./public/css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -28,7 +30,7 @@
 					<div class="d-table-cell align-middle">
 
 						<div class="text-center mt-4">
-							<h1 class="h2">Bienvenidos!</h1>
+							<h1 class="h2">SISFARMACIA</h1>
 							<p class="lead">
                                 Inicia sesión en tu cuenta para continuar
 							</p>
@@ -40,11 +42,11 @@
 									<form>
 										<div class="mb-3">
 											<label class="form-label">Usuario</label>
-											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email" />
+											<input class="form-control form-control-lg" type="email" name="email" id="usu" placeholder="Enter your email" />
 										</div>
 										<div class="mb-3">
 											<label class="form-label">Contraseña</label>
-											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
+											<input class="form-control form-control-lg" type="password" name="password" id="cont" placeholder="Enter your password" />
 										</div>
 										<div>
 											<div class="form-check align-items-center">
